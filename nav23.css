@@ -10,6 +10,26 @@ body{
     width: 100%;
     top: 0;
 }
+.gallery{
+    width: 50%;
+    margin: 0 auto;
+}
+.image{
+    margin: 5px;
+    float: left;
+    border: 1px solid gray;
+    width: 48%;
+}
+.image img{
+    width: 100%;
+
+}
+.image p{
+    text-align: center;
+}
+.image:hover{
+    border: 1px solid black;
+}
 nav{
     height: 60px;
     background-color: #2c3e50;
@@ -33,6 +53,7 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
 }
+/*Menu icons*/
 nav ul li a{
     display: block;
     padding: 0 15px;
@@ -49,7 +70,7 @@ nav ul li a:hover{
 nav ul ul{
     position: absolute;
     top: 60px;
-    display: none;
+    display: none; /*Inner list or dropdown*/
 }
 nav ul li:hover >ul{
     display: block;
@@ -65,14 +86,20 @@ nav ul ul ul li{
     top: -60px;
     left: 150px;
 }
-.para{
-    padding: 0 20px;
-    text-align: center;
+.banner{
+    width: 50%;
+    margin: 0 auto;
 }
-.para img{
+.banner img{
     width: auto;
-    margin: 20px 0;
 }
 .para p{
     text-align: center;
+    padding: 8px;
+}
+.para{
+    background-image: url("https://unsplash.it/800/300?image=1001");
+    background-size: cover;
+    opacity: 0.8;
+    color: darkblue;
 }/**/
